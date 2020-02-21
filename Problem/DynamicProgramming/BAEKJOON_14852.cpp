@@ -21,7 +21,7 @@ int tile(int n);
 int main() {
 	int n;
 	cin >> n;
-	num.resize(n+1);
+	num.resize(n+3);
 	for (int i = 0; i < num.size(); ++i) {
 		num[i].resize(2,-1);
 	}
